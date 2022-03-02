@@ -1,0 +1,78 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+    width: 300px;
+    text-align: left;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 150px auto;
+}
+
+.image{
+    width: 260px;
+    border-radius: 10px;
+    margin: 15px 15px 0px 15px;
+}
+
+h2:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.text{
+    padding: 0 30px 10px 30px;
+    font-family: 'Outfit', sans-serif;    
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+#description{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+#number{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+#day{
+    color: hsl(215, 51%, 70%);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.profile{
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+}
+
+.name{
+    color:hsl(215, 51%, 70%);
+}
+
+.creator{
+    margin: 20px 20px;
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+}
+
+span:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.line{
+    margin: 0px 20px;
+    color: hsl(215, 51%, 70%);
+}
