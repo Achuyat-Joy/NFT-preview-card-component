@@ -40,14 +40,26 @@ h2{
     font-weight: 400;
 }
 
+.etheNumber{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 #day{
     color: hsl(215, 51%, 70%);
 }
 
+.time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}    
+
 .info{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .profile{
@@ -62,6 +74,9 @@ h2{
 
 .creator{
     margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 span{
