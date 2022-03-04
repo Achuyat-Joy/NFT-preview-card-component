@@ -3,42 +3,17 @@ body{
 }
 
 .card{
-    width: 350px;
+    width: 300px;
+    text-align: left;
     border-radius: 15px;
     background-color: hsl(216, 50%, 16%);
     margin: 100px auto;
 }
 
-.hoverImg {
-    position: relative;
-}
-
 .image{
-    height: 320px;
-    width: 3200px;
+    width: 270px;
     border-radius: 10px;
-    margin: 15px 0px 0px 15px;
-}
-
-.eyesActive{
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    height: 320px;
-    width: 320px;
-    border-radius: 10px;
-    background-color: hsla(178, 100%, 50%, 0.507);
-    opacity: 0;
-}
-  
-.eyes {
-    position: absolute;
-    top: 45%;
-    left: 42%;
-}
-  
-.eyesActive:hover {
-    opacity: 1;
+    margin: 15px 15px 0px 15px;
 }
 
 h2:hover{
@@ -47,7 +22,7 @@ h2:hover{
 }
 
 .text{
-    padding: 0em 2em;
+    padding: 0 30px 10px 30px;
     font-family: 'Outfit', sans-serif;    
 }
 
