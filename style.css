@@ -3,17 +3,43 @@ body{
 }
 
 .card{
-    width: 300px;
+    width: 350px;
     text-align: left;
     border-radius: 15px;
     background-color: hsl(216, 50%, 16%);
     margin: 100px auto;
 }
 
+.hoverImg {
+    position: relative;
+}
+
 .image{
-    width: 270px;
+    height: 320px;
+    width: 3200px;
     border-radius: 10px;
     margin: 15px 15px 0px 15px;
+}
+
+.eyesActive{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: hsla(178, 100%, 50%, 0.507);
+    opacity: 0;
+}
+  
+.eyes {
+    position: absolute;
+    top: 45%;
+    left: 42%;
+}
+  
+.eyesActive:hover {
+    opacity: 1;
 }
 
 h2:hover{
